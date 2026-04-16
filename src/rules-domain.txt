@@ -3,7 +3,7 @@
 # Формат: mihomo rule-provider, behavior: domain, format: text
 # Синтаксис: +.example.com — суффиксное совпадение (домен + все поддомены)
 # Комментарии игнорируются парсером mihomo.
-# Ревизия: 2026-04-15
+# Ревизия: 2026-04-16
 # ============================================================================
 
 
@@ -43,6 +43,10 @@
 +.discordapp.net
 +.discord.media
 +.discord.new
++.discord.gift
++.discord.dev
++.discord.store
++.discord.tools
 +.discordstatus.com
 +.dis.gd
 +.discord-attachments.com
@@ -67,6 +71,9 @@
 +.viber.com
 +.viber.net
 
+# === Zello (РКН, 2017) ===
++.zello.com
+
 # === Snapchat ===
 +.snapchat.com
 +.snap.com
@@ -85,7 +92,10 @@
 
 # === Telegram ===
 +.telegram.org
++.telegram.com
 +.telegram.me
++.telegram.app
++.telegram.dev
 +.telegram.dog
 +.telegram.space
 +.t.me
@@ -96,21 +106,28 @@
 +.telesco.pe
 +.telegra.ph
 +.cdn-telegram.org
++.telegram-cdn.org
 
 # === LibGen / Sci-Hub / Z-Library / Anna's Archive ===
 +.libgen.rs
 +.libgen.is
 +.libgen.st
 +.libgen.li
++.libgen.gs
 +.sci-hub.se
 +.sci-hub.ru
 +.sci-hub.st
++.sci-hub.ren
++.sci-hub.ee
 +.z-lib.org
++.z-lib.id
 +.zlibrary-global.se
 +.b-ok.cc
 +.1lib.sk
 +.annas-archive.org
 +.annas-archive.se
++.annas-archive.gl
++.annas-archive.gd
 
 # === Независимые медиа ===
 +.meduza.io
@@ -171,6 +188,11 @@
 +.kovcheg.live
 +.newtimes.ru
 +.kavkaz-uzel.eu
++.bellingcat.com
++.spektr.press
++.posle.media
++.the-village.ru
++.t-invariant.org
 
 # === Правозащитные и антицензурные проекты ===
 +.ovd.info
@@ -181,6 +203,7 @@
 +.rublacklist.net
 +.sakharovfoundation.org
 +.radiosakharov.org
++.gulagu.net
 
 # === Оппозиционные ресурсы ===
 +.navalny.com
@@ -190,7 +213,7 @@
 +.openrussia.org
 +.open-media.org
 
-# === Open-source VPN / средства обхода ===
+# === Open-source VPN / средства обхода / зашифрованные мессенджеры ===
 +.openvpn.net
 +.openvpn.org
 +.one.one.one.one
@@ -201,6 +224,9 @@
 +.getoutline.org
 +.amnezia.org
 +.amneziavpn.org
++.simplex.chat
++.threema.ch
++.adguard.com
 
 # === Сервисы обхода блокировок / прокси-агрегаторы ===
 +.v2ray.com
@@ -215,25 +241,37 @@
 +.hdrezka.ag
 +.hdrezka.me
 +.hdrezka.tv
++.hdrezka.co
++.hdrezka.club
 +.rezka.ag
 +.rezka.me
 +.filmix.ac
 +.filmix.me
 +.filmix.biz
++.filmix.pub
 +.kinogo.la
 +.kinogo.biz
 +.kinogo.ec
 +.lostfilm.tv
 +.lostfilm.uno
++.lostfilm.tw
 +.seasonvar.ru
 +.baskino.me
 +.zona.plus
 +.anilibria.tv
 +.anilibria.top
++.anilibria.org
 +.anidub.com
 +.animelib.me
 +.animevost.org
 +.jut.su
+
+# === 4PDA (РКН, 2021) ===
++.4pda.to
++.4pda.ws
+
+# === Minds (РКН) ===
++.minds.com
 
 # === Украинские медиа и госресурсы (РКН, 2022+) ===
 +.ukr.net
@@ -244,16 +282,28 @@
 +.obozrevatel.com
 +.president.gov.ua
 +.mil.gov.ua
++.suspilne.media
++.hromadske.ua
++.ukrinform.net
++.espreso.tv
++.korrespondent.net
++.interfax.com.ua
 
 # === Криптообменники ===
 +.binance.com
-+.localbitcoins.com
 +.bestchange.ru
 +.okx.com
 +.okex.com
 
+# === Proton (ProtonMail / ProtonVPN) (РКН, 2020) ===
++.proton.me
++.protonmail.com
++.protonvpn.com
++.protonvpn.ch
+
 # === Tuta / Tutanota (РКН, 2024) ===
 +.tuta.com
++.tuta.io
 +.tutanota.com
 +.tutamail.com
 +.tutao.de
@@ -279,6 +329,7 @@
 +.ttwstatic.com
 +.bytedance.com
 +.bytedance.net
++.capcut.com
 
 
 # ############################################################################
@@ -295,13 +346,12 @@
 # === Anthropic / Claude ===
 +.anthropic.com
 +.claude.ai
++.claude.com
 
 # === Google Gemini / AI Studio / NotebookLM ===
 +.gemini.google.com
-+.bard.google.com
 +.aistudio.google.com
 +.generativelanguage.googleapis.com
-+.makersuite.google.com
 +.notebooklm.google.com
 +.notebooklm.google
 +.ai.google.dev
@@ -345,6 +395,9 @@
 
 # === JetBrains ===
 +.jetbrains.com
++.jetbrains.space
++.myjetbrains.com
++.qodana.cloud
 +.grazie.ai
 +.jetbrains.ai
 
@@ -371,6 +424,7 @@
 # === Notion ===
 +.notion.so
 +.notion.com
++.notion.site
 +.notion-static.com
 
 # === Figma ===
@@ -405,6 +459,8 @@
 # === Cloudflare dash / WARP ===
 +.dash.cloudflare.com
 +.warp.cloudflare.com
++.cloudflareclient.com
++.cloudflare-dns.com
 
 # === Steam ===
 +.steampowered.com
@@ -485,6 +541,7 @@
 # === Autodesk / Oracle / SAP / IBM / VMware / Salesforce / Cisco ===
 +.autodesk.com
 +.oracle.com
++.oraclecloud.com
 +.sap.com
 +.ibm.com
 +.vmware.com
@@ -507,6 +564,8 @@
 +.netflix.com
 +.nflxvideo.net
 +.nflximg.net
++.nflxext.com
++.nflxso.net
 
 # === Twitch (самоограничение, частичный гео-блок РФ) ===
 +.twitch.tv
@@ -553,6 +612,9 @@
 +.recraft.ai
 +.reve.art
 +.genspark.ai
++.pi.ai
++.manus.im
++.lightning.ai
 
 # === DeepL ===
 +.deepl.com
@@ -565,6 +627,9 @@
 +.linear.app
 +.clickup.com
 +.mattermost.com
+
+# === Matrix ===
++.matrix.org
 
 # === Automation ===
 +.zapier.com
@@ -684,6 +749,7 @@
 # === Stock photos ===
 +.unsplash.com
 +.pexels.com
++.pixabay.com
 +.depositphotos.com
 +.shutterstock.com
 
@@ -706,11 +772,12 @@
 +.splunkcloud.com
 +.databricks.com
 
-# === Cohere / Reka / Meta AI ===
+# === Cohere / Reka / Meta AI / Oculus ===
 +.cohere.com
 +.reka.ai
 +.meta.ai
 +.llamameta.net
++.oculus.com
 
 # === Ansible / GitLab / Tailscale / ngrok / Snyk / Buf / Perforce / Qt ===
 +.ansible.com
@@ -796,6 +863,10 @@
 +.razer.com
 +.corsair.com
 +.jabra.com
+
+# === Speedtest / Ookla ===
++.speedtest.net
++.ookla.com
 
 # === Fitness / weather ===
 +.strava.com

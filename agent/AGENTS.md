@@ -42,10 +42,14 @@ Don't worry about style manually — run `npx prettier --write .` after changes 
 
 Detailed instructions are in `skills/`. Auto-triggered by context (for agents with skill support) or read manually.
 
-- **Sync** — [`skills/sync-agent-files/SKILL.md`](skills/sync-agent-files/SKILL.md) — **auto-trigger after ANY edit** to files in `agent/`, `.claude/skills/`, or agent configs (`CLAUDE.md`, `.cursorrules`, `.windsurfrules`, `.clinerules`, `.roomodes`, `copilot-instructions.md`). Read the skill and run the sync procedure immediately after such edits — do not wait for explicit request.
-- **Project structure** — [`skills/project-structure/SKILL.md`](skills/project-structure/SKILL.md) — **read before editing any file in `src/` or `dist/`**. Describes file formats (`rules-domain.txt`, `rules-ipcidr.txt`, `services.md`, `excluded.md`), comment syntax, and how to build `dist/*.mrs`.
+- **Sync** — [`skills/sync-agent-files/SKILL.md`](skills/sync-agent-files/SKILL.md) — **auto-trigger after ANY edit** to files in `agent/`, `.claude/skills/`,
+  or agent configs (`CLAUDE.md`, `.cursorrules`, `.windsurfrules`, `.clinerules`, `.roomodes`, `copilot-instructions.md`). Read the skill and run the sync
+  procedure immediately after such edits — do not wait for explicit request.
+- **Project structure** — [`skills/project-structure/SKILL.md`](skills/project-structure/SKILL.md) — **read before editing any file in `src/` or `dist/`**.
+  Describes file formats (`rules-domain.txt`, `rules-ipcidr.txt`, `services.md`, `excluded.md`), comment syntax, and how to build `dist/*.mrs`.
 - **Add service** — [`skills/add-service/SKILL.md`](skills/add-service/SKILL.md) — full addition process.
 - **Remove service** — [`skills/remove-service/SKILL.md`](skills/remove-service/SKILL.md) — removal and adding to exclusions.
 - **Verify** — [`skills/verify/SKILL.md`](skills/verify/SKILL.md) — check sections and mass update.
 - **Audit** — [`skills/audit/SKILL.md`](skills/audit/SKILL.md) — compare with external sources, find missing entries.
-- **Git workflow** — [`skills/git-workflow/SKILL.md`](skills/git-workflow/SKILL.md) — **read before any git operation**. Two-branch model (`dev` → `release`), release cycle with ISO-dated tags, commit message conventions.
+- **Git workflow** — [`skills/git-workflow/SKILL.md`](skills/git-workflow/SKILL.md) — **read before any git operation**. Two-branch model (`dev` → `release`),
+  release cycle with ISO-dated tags, commit message conventions.
