@@ -1,0 +1,861 @@
+# ============================================================================
+# rules-domain.txt — текстовая версия rules-domain.mrs для анализа
+# Формат: mihomo rule-provider, behavior: domain, format: text
+# Синтаксис: +.example.com — суффиксное совпадение (домен + все поддомены)
+# Комментарии игнорируются парсером mihomo.
+# Ревизия: 2026-04-15
+# ============================================================================
+
+
+# ############################################################################
+# # RKN-blocked
+# ############################################################################
+
+# === Meta: Facebook / Instagram ===
++.facebook.com
++.fb.com
++.fbcdn.net
++.fbsbx.com
++.fb.watch
++.messenger.com
++.instagram.com
++.cdninstagram.com
++.ig.me
++.threads.net
++.meta.com
++.internalfb.com
+
+# === Twitter / X ===
++.twitter.com
++.x.com
++.t.co
++.twimg.com
+
+# === LinkedIn ===
++.linkedin.com
++.licdn.com
++.linkedin-ei.com
+
+# === Discord ===
++.discord.com
++.discord.gg
++.discordapp.com
++.discordapp.net
++.discord.media
++.discord.new
++.discordstatus.com
++.dis.gd
++.discord-attachments.com
+
+# === YouTube ===
++.youtube.com
++.youtu.be
++.youtubei.googleapis.com
++.youtube-nocookie.com
++.ytimg.com
++.googlevideo.com
++.yt3.ggpht.com
++.ytstatic.com
+
+# === WhatsApp ===
++.whatsapp.com
++.whatsapp.net
++.whatsapp.biz
++.wa.me
+
+# === Viber ===
++.viber.com
++.viber.net
+
+# === Snapchat ===
++.snapchat.com
++.snap.com
++.sc-cdn.net
++.sc-static.net
+
+# === Roblox ===
++.roblox.com
++.rbxcdn.com
++.robloxlabs.com
++.rbx.com
+
+# === FaceTime / часть сервисов Apple ===
++.facetime.apple.com
++.icloud.com
+
+# === Telegram ===
++.telegram.org
++.telegram.me
++.telegram.dog
++.telegram.space
++.t.me
++.tg.dev
++.telega.one
++.ton.org
++.tdesktop.com
++.telesco.pe
++.telegra.ph
++.cdn-telegram.org
+
+# === LibGen / Sci-Hub / Z-Library / Anna's Archive ===
++.libgen.rs
++.libgen.is
++.libgen.st
++.libgen.li
++.sci-hub.se
++.sci-hub.ru
++.sci-hub.st
++.z-lib.org
++.zlibrary-global.se
++.b-ok.cc
++.1lib.sk
++.annas-archive.org
++.annas-archive.se
+
+# === Независимые медиа ===
++.meduza.io
++.mduza.io
++.dw.com
++.dwnews.de
++.bbc.com
++.bbc.co.uk
++.bbcrussian.com
++.bbci.co.uk
++.svoboda.org
++.rferl.org
++.currenttime.tv
++.radiosvoboda.org
++.idelreal.org
++.kavkazr.com
++.krymr.com
++.sibreal.org
++.severreal.org
++.ekhokavkaza.com
++.azattyq.org
++.ozodi.org
++.golosameriki.com
++.voanews.com
++.theins.ru
++.theins.press
++.theinsider.ua
++.istories.media
++.important-stories.com
++.proekt.media
++.republic.ru
++.zona.media
++.mediazona.ca
++.novayagazeta.eu
++.novayagazeta.ru
++.novaya.no
++.agents.media
++.7x7-journal.ru
++.vot-tak.tv
++.belsat.eu
++.euronews.com
++.tvrain.ru
++.tvrain.tv
++.echofm.online
++.thebell.io
++.holod.media
++.verstka.media
++.paperpaper.ru
++.paperpaper.io
++.doxa.team
++.cherta.media
++.themoscowtimes.com
++.moscowtimes.ru
++.grani.ru
++.kasparov.ru
++.colta.ru
++.sotaproject.com
++.kovcheg.live
++.newtimes.ru
++.kavkaz-uzel.eu
+
+# === Правозащитные и антицензурные проекты ===
++.ovd.info
++.ovdinfo.org
++.ovd.news
++.ovd.legal
++.roskomsvoboda.org
++.rublacklist.net
++.sakharovfoundation.org
++.radiosakharov.org
+
+# === Оппозиционные ресурсы ===
++.navalny.com
++.fbk.info
++.acf.international
++.team29.org
++.openrussia.org
++.open-media.org
+
+# === Open-source VPN / средства обхода ===
++.openvpn.net
++.openvpn.org
++.one.one.one.one
++.torproject.org
++.psiphon.ca
++.psiphon3.com
++.getlantern.org
++.getoutline.org
++.amnezia.org
++.amneziavpn.org
+
+# === Сервисы обхода блокировок / прокси-агрегаторы ===
++.v2ray.com
++.v2fly.org
++.xtls.github.io
++.clashverge.dev
++.clash.wiki
++.sing-box.sagernet.org
++.shadowsocks.org
+
+# === Пиратские стрим-сайты (РКН, авторские права) ===
++.hdrezka.ag
++.hdrezka.me
++.hdrezka.tv
++.rezka.ag
++.rezka.me
++.filmix.ac
++.filmix.me
++.filmix.biz
++.kinogo.la
++.kinogo.biz
++.kinogo.ec
++.lostfilm.tv
++.lostfilm.uno
++.seasonvar.ru
++.baskino.me
++.zona.plus
++.anilibria.tv
++.anilibria.top
++.anidub.com
++.animelib.me
++.animevost.org
++.jut.su
+
+# === Украинские медиа и госресурсы (РКН, 2022+) ===
++.ukr.net
++.pravda.com.ua
++.unian.net
++.unian.ua
++.liga.net
++.obozrevatel.com
++.president.gov.ua
++.mil.gov.ua
+
+# === Криптообменники ===
++.binance.com
++.localbitcoins.com
++.bestchange.ru
++.okx.com
++.okex.com
+
+# === Tuta / Tutanota (РКН, 2024) ===
++.tuta.com
++.tutanota.com
++.tutamail.com
++.tutao.de
+
+# === Архивы и зеркала ===
++.archive.org
++.archive.ph
++.archive.today
++.archive.is
+
+# === TikTok ===
++.tiktok.com
++.tiktokcdn.com
++.tiktokcdn-eu.com
++.tiktokcdn-us.com
++.tiktokcdn-in.com
++.tiktokv.com
++.tiktokv.eu
++.musical.ly
++.muscdn.com
++.byteoversea.com
++.ibytedtos.com
++.ttwstatic.com
++.bytedance.com
++.bytedance.net
+
+
+# ############################################################################
+# # Outside-blocked (self-censorship / гео-блок на стороне сервиса)
+# ############################################################################
+
+# === OpenAI / ChatGPT ===
++.openai.com
++.chatgpt.com
++.oaistatic.com
++.oaiusercontent.com
++.sora.com
+
+# === Anthropic / Claude ===
++.anthropic.com
++.claude.ai
+
+# === Google Gemini / AI Studio / NotebookLM ===
++.gemini.google.com
++.bard.google.com
++.aistudio.google.com
++.generativelanguage.googleapis.com
++.makersuite.google.com
++.notebooklm.google.com
++.notebooklm.google
++.ai.google.dev
++.deepmind.google
++.deepmind.com
+
+# === GitHub Copilot ===
++.copilot.github.com
++.api.githubcopilot.com
++.copilot-proxy.githubusercontent.com
++.individual.githubcopilot.com
++.business.githubcopilot.com
+
+# === Microsoft Copilot / Bing Chat ===
++.copilot.microsoft.com
++.edgeservices.bing.com
+
+# === Perplexity AI ===
++.perplexity.ai
++.pplx.ai
+
+# === Mistral ===
++.mistral.ai
+
+# === xAI / Grok ===
++.x.ai
++.grok.com
+
+# === Cursor / Windsurf / Codeium / Augment ===
++.cursor.com
++.cursor.sh
++.codeium.com
++.windsurf.com
++.windsurf.ai
++.augmentcode.com
+
+# === Hugging Face (самоограничение / санкции) ===
++.huggingface.co
++.hf.co
++.huggingface.io
+
+# === JetBrains ===
++.jetbrains.com
++.grazie.ai
++.jetbrains.ai
+
+# === Docker Hub ===
++.docker.com
++.docker.io
+
+# === GitHub ===
++.github.com
++.githubusercontent.com
++.githubassets.com
++.github.io
++.github.dev
++.githubcopilot.com
++.codeload.github.com
++.ghcr.io
++.pkg.github.com
+
+# === Slack ===
++.slack.com
++.slack-edge.com
++.slack-files.com
+
+# === Notion ===
++.notion.so
++.notion.com
++.notion-static.com
+
+# === Figma ===
++.figma.com
+
+# === Adobe ===
++.adobe.com
++.adobe.io
++.behance.net
+
+# === Affinity / Serif (самоограничение) ===
++.affinity.serif.com
++.serif.com
+
+# === Intel / AMD / NVIDIA ===
++.intel.com
++.amd.com
++.nvidia.com
+
+# === PayPal ===
++.paypal.com
+
+# === Stripe ===
++.stripe.com
+
+# === AWS / GCP / Azure consoles ===
++.aws.amazon.com
++.cloud.google.com
++.azure.microsoft.com
++.portal.azure.com
+
+# === Cloudflare dash / WARP ===
++.dash.cloudflare.com
++.warp.cloudflare.com
+
+# === Steam ===
++.steampowered.com
++.steamcommunity.com
+
+# === Epic Games ===
++.epicgames.com
++.unrealengine.com
+
+# === TradingView ===
++.tradingview.com
+
+# === Crypto exchanges ===
++.coinbase.com
++.kraken.com
+
+# === Dev / CI / hosting PaaS ===
++.vercel.com
++.netlify.com
++.render.com
++.fly.io
++.railway.app
++.supabase.com
++.planetscale.com
+
+# === Medium ===
++.medium.com
+
+# === Online courses ===
++.coursera.org
++.udemy.com
++.udemycdn.com
++.edx.org
++.pluralsight.com
++.skillshare.com
+
+# === Zoom ===
++.zoom.us
++.zoom.com
+
+# === Freelance ===
++.upwork.com
++.fiverr.com
+
+# === Apple services ===
++.itunes.apple.com
++.music.apple.com
++.tv.apple.com
+
+# === HashiCorp ===
++.hashicorp.com
++.terraform.io
++.vaultproject.io
++.consul.io
+
+# === Grafana ===
++.grafana.com
++.grafana.net
++.grafana-cloud.com
+
+# === MongoDB / Elastic ===
++.mongodb.com
++.elastic.co
+
+# === Neo4j (санкции) ===
++.neo4j.com
++.neo4j.io
+
+# === Atlassian ===
++.atlassian.com
++.jira.com
++.trello.com
++.bitbucket.org
+
+# === Miro ===
++.miro.com
+
+# === Autodesk / Oracle / SAP / IBM / VMware / Salesforce / Cisco ===
++.autodesk.com
++.oracle.com
++.sap.com
++.ibm.com
++.vmware.com
++.broadcom.com
++.salesforce.com
++.cisco.com
+
+# === Кибербезопасность ===
++.avast.com
++.norton.com
++.gendigital.com
++.eset.com
++.crowdstrike.com
++.paloaltonetworks.com
++.fortinet.com
++.sophos.com
++.mcafee.com
+
+# === Netflix ===
++.netflix.com
++.nflxvideo.net
++.nflximg.net
+
+# === Twitch (самоограничение, частичный гео-блок РФ) ===
++.twitch.tv
++.ttvnw.net
++.jtvnw.net
+
+# === Disney+ / Hulu / HBO / Max ===
++.disneyplus.com
++.hulu.com
++.hbomax.com
++.max.com
+
+# === Spotify ===
++.spotify.com
++.scdn.co
+
+# === Amazon Prime Video / Crunchyroll ===
++.primevideo.com
++.crunchyroll.com
+
+# === Payments / transfers ===
++.wise.com
++.transferwise.com
++.revolut.com
++.westernunion.com
++.moneygram.com
+
+# === Game stores ===
++.xbox.com
++.xboxlive.com
++.nintendo.com
++.playstation.com
+
+# === Midjourney ===
++.midjourney.com
+
+# === ElevenLabs ===
++.elevenlabs.io
+
+# === AI-сервисы (OpenRouter/Groq/...) ===
++.openrouter.ai
++.groq.com
++.hume.ai
++.recraft.ai
++.reve.art
++.genspark.ai
+
+# === DeepL ===
++.deepl.com
+
+# === Canva ===
++.canva.com
++.canva.dev
+
+# === Project management ===
++.linear.app
++.clickup.com
++.mattermost.com
+
+# === Automation ===
++.zapier.com
++.make.com
+
+# === Sentry ===
++.sentry.io
++.sentry.dev
+
+# === DeepSource (самоограничение) ===
++.deepsource.com
++.deepsource.io
+
+# === ZeroSSL (самоограничение) ===
++.zerossl.com
+
+# === Hex-Rays / IDA Pro (санкции) ===
++.hex-rays.com
+
+# === UltraEdit (санкции) ===
++.ultraedit.com
+
+# === ActiveState (санкции) ===
++.activestate.com
+
+# === Servarr (Radarr / Sonarr / Prowlarr / Lidarr) ===
++.servarr.com
+
+# === Hosting ===
++.digitalocean.com
++.hetzner.com
++.hetzner.cloud
++.contabo.com
+
+# === Domain registrars / hosting ===
++.godaddy.com
++.hostinger.com
++.bluehost.com
++.dreamhost.com
++.siteground.com
+
+# === Remote access ===
++.teamviewer.com
++.anydesk.com
++.parallels.com
++.myparallels.com
++.parsec.app
+
+# === Donations ===
++.patreon.com
++.patreonusercontent.com
++.buymeacoffee.com
++.ko-fi.com
+
+# === Payments ===
++.klarna.com
++.squareup.com
++.paddle.com
++.fastspring.com
++.onfastspring.com
+
+# === Brokers ===
++.interactivebrokers.co.uk
++.interactivebrokers.com
++.etoro.com
+
+# === Music streaming ===
++.deezer.com
++.tidal.com
++.last.fm
++.soundcloud.com
++.sndcdn.com
+
+# === Events ===
++.meetup.com
+
+# === Filesharing ===
++.wetransfer.com
++.mega.nz
++.mega.io
+
+# === Education ===
++.ef.com
++.ef.edu
++.lingq.com
+
+# === Game keys ===
++.eneba.com
++.g2a.com
++.kinguin.net
+
+# === Sports streaming ===
++.nba.com
++.nfl.com
++.nhl.com
++.premierleague.com
++.formula1.com
++.f1.com
+
+# === Antivirus ===
++.bitdefender.com
++.malwarebytes.com
++.avira.com
++.pandasecurity.com
+
+# === Jobs ===
++.indeed.com
+
+# === Design / sites ===
++.lucid.app
++.framer.com
++.webflow.com
+
+# === Quora ===
++.quora.com
+
+# === Stock photos ===
++.unsplash.com
++.pexels.com
++.depositphotos.com
++.shutterstock.com
+
+# === Imgur (самоограничение) ===
++.imgur.com
+
+# === TheMovieDB / TMDB (санкции / самоограничение) ===
++.themoviedb.org
++.tmdb.org
+
+# === Retail ===
++.ikea.com
++.nike.com
++.adidas.com
+
+# === Redis / Splunk / Databricks ===
++.redis.io
++.redis.com
++.splunk.com
++.splunkcloud.com
++.databricks.com
+
+# === Cohere / Reka / Meta AI ===
++.cohere.com
++.reka.ai
++.meta.ai
++.llamameta.net
+
+# === Ansible / GitLab / Tailscale / ngrok / Snyk / Buf / Perforce / Qt ===
++.ansible.com
++.gitlab.com
++.tailscale.com
++.ngrok.com
++.snyk.io
++.buf.build
++.perforce.com
++.qt.io
+
+# === Swagger / SmartBear ===
++.swagger.io
++.smartbear.com
++.soapui.org
+
+# === Cisco Meraki / WebEx / Netscaler / Citrix ===
++.meraki.com
++.webex.com
++.netscaler.com
++.citrix.com
+
+# === Enterprise hardware / storage ===
++.fujitsu.com
++.dell.com
++.delltechnologies.com
++.dellcdn.com
++.hpe.com
++.seagate.com
++.xerox.com
++.ubnt.com
++.ui.com
++.windriver.com
+
+# === Backup / observability ===
++.veeam.com
++.veritas.com
++.solarwinds.com
+
+# === Security ===
++.tenable.com
++.sysdig.com
++.fortiguard.com
++.entrust.com
++.watchguard.com
+
+# === Industrial / CAD / EDA ===
++.siemens.com
++.ptc.com
++.ansys.com
++.cadence.com
++.vectorworks.net
++.sketchup.com
++.onshape.com
++.chaos.com
++.chaosgroup.com
+
+# === Media production ===
++.avid.com
++.dolby.com
+
+# === Semiconductor vendors ===
++.ti.com
++.nxp.com
++.freescale.com
++.st.com
++.microchip.com
++.maximintegrated.com
++.infineon.com
++.analog.com
++.qualcomm.com
++.tsmc.com
+
+# === Electronics distributors ===
++.digikey.com
++.mouser.com
++.octopart.com
++.element14.com
++.adafruit.com
++.pcbway.com
+
+# === Peripherals ===
++.razer.com
++.corsair.com
++.jabra.com
+
+# === Fitness / weather ===
++.strava.com
++.weather.com
++.wunderground.com
+
+# === Hi-res music / DJ ===
++.qobuz.com
++.serato.com
+
+# === Writing / reference ===
++.grammarly.com
++.slideshare.net
++.crunchbase.com
+
+# === BI / Mac tools ===
++.tableau.com
++.macpaw.com
++.setapp.com
++.raycast.com
++.readdle.com
++.pdfexpert.com
+
+# === Brave ===
++.brave.com
+
+# === Game bundles / stores ===
++.humblebundle.com
++.fanatical.com
++.battle.net
++.ubi.com
++.supercell.com
++.wbgames.com
+
+# === Lego ===
++.lego.com
++.bricklink.com
+
+# === SEO ===
++.ahrefs.com
++.semrush.com
++.screamingfrog.co.uk
+
+# === Marketing / commerce ===
++.klaviyo.com
++.etsy.com
++.stockx.com
++.reverb.com
+
+# === US Retail ===
++.walmart.com
++.target.com
++.bestbuy.com
++.lowes.com
+
+# === Apparel ===
++.vans.com
++.thenorthface.com
++.timberland.com
++.tommy.com
+
+# === Dyson ===
++.dyson.com

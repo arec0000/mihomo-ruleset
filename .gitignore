@@ -1,0 +1,18 @@
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Agent-specific instruction files (source of truth: agent/AGENTS.md)
+CLAUDE.md
+.claude/
+.cursorrules
+.cursor/
+.windsurfrules
+.windsurf/
+CONVENTIONS.md
+.aider*
+.cline/
+.continue/
