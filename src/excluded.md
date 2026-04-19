@@ -19,6 +19,8 @@
 - Региональные блоги, персональные сайты иноагентов
 - Локальный ретейл США без аудитории в РФ
 - Нишевые стриминги без русскоязычной аудитории
+- IP-check и сервисы, косвенно раскрывающие IP (speedtest/ookla, ipify, ipinfo, ip-api, ifconfig.me, icanhazip, whatismyip, whoer, browserleaks, fast.com,
+  nperf, cloudflare cdn-cgi/trace и т. п.)
 
 ## Технические ограничения для ipcidr
 

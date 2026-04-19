@@ -864,10 +864,6 @@
 +.corsair.com
 +.jabra.com
 
-# === Speedtest / Ookla ===
-+.speedtest.net
-+.ookla.com
-
 # === Fitness / weather ===
 +.strava.com
 +.weather.com
