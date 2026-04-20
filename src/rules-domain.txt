@@ -3,7 +3,7 @@
 # Формат: mihomo rule-provider, behavior: domain, format: text
 # Синтаксис: +.example.com — суффиксное совпадение (домен + все поддомены)
 # Комментарии игнорируются парсером mihomo.
-# Ревизия: 2026-04-19
+# Ревизия: 2026-04-20
 # ============================================================================
 
 
@@ -266,7 +266,8 @@
 +.animevost.org
 +.jut.su
 
-# === 4PDA (РКН, 2021) ===
+# === 4PDA (РКН, 2021-05-14) ===
++.4pda.ru
 +.4pda.to
 +.4pda.ws
 
@@ -336,6 +337,14 @@
 +.oaistatic.com
 +.oaiusercontent.com
 +.sora.com
+openaiapi-site.azureedge.net
+production-openaicom-storage.azureedge.net
+openaicom.imgix.net
+chatgpt.livekit.cloud
+host.livekit.cloud
+turn.livekit.cloud
+openai.com.cdn.cloudflare.net
+chat.openai.com.cdn.cloudflare.net
 
 # === Anthropic / Claude ===
 +.anthropic.com
@@ -394,6 +403,7 @@
 +.qodana.cloud
 +.grazie.ai
 +.jetbrains.ai
++.intellij.net
 
 # === Docker Hub ===
 +.docker.com
@@ -428,6 +438,14 @@
 +.adobe.com
 +.adobe.io
 +.behance.net
++.adobe.net
++.adobe.de
++.adobelogin.com
++.adobeereg.com
++.adobegenuine.com
++.adobedtm.com
++.adobejanus.com
+adobe.activate.com
 
 # === Affinity / Serif (самоограничение) ===
 +.affinity.serif.com
@@ -455,6 +473,7 @@
 +.warp.cloudflare.com
 +.cloudflareclient.com
 +.cloudflare-dns.com
++.cloudflare-ech.com
 
 # === Steam ===
 +.steampowered.com
@@ -534,6 +553,11 @@
 
 # === Autodesk / Oracle / SAP / IBM / VMware / Salesforce / Cisco ===
 +.autodesk.com
++.autodesk.net
++.autodesk360.com
++.autocad.com
++.autodesk.io
++.a360.co
 +.oracle.com
 +.oraclecloud.com
 +.sap.com

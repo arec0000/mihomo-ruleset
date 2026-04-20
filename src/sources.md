@@ -25,6 +25,8 @@
   обновление каждые 6 часов (inside/refilter/outside)
 - [runetfreedom/russia-blocked-geosite](https://github.com/runetfreedom/russia-blocked-geosite) — geosite.dat с доменами из реестра РКН, плюс ads и
   Windows-телеметрия
+- [runetfreedom/russia-blocked-geoip](https://github.com/runetfreedom/russia-blocked-geoip) — geoip/mmdb/srs/mrs/clash/surge/nginx по адресам и подсетям из
+  блокировок РФ, обновление каждые 6 часов
 
 **Парсеры реестра РКН**
 
@@ -53,4 +55,5 @@
 - [www.cloudflare.com/ips/](https://www.cloudflare.com/ips/) — официальные CIDR Cloudflare
 - [ip-ranges.amazonaws.com/ip-ranges.json](https://ip-ranges.amazonaws.com/ip-ranges.json) — AWS
 - [gstatic.com/ipranges/goog.json](https://www.gstatic.com/ipranges/goog.json) — Google
-- [GhostRooter0953/discord-voice-ips](https://github.com/GhostRooter0953/discord-voice-ips) — Discord voice IP
+- [GhostRooter0953/discord-voice-ips](https://github.com/GhostRooter0953/discord-voice-ips) — Discord voice IP; репозиторий заархивирован 9 марта 2026,
+  использовать как исторический референс
