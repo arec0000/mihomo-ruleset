@@ -4,6 +4,7 @@
 *.swp
 *.swo
 *~
+node_modules
 
 # Agent-specific instruction files (source of truth: agent/INSTRUCTIONS.md)
 /AGENTS.md

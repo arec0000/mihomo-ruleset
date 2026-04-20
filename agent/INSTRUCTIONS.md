@@ -34,7 +34,7 @@ restricted sites", "circumvent sanctions", "circumvent self-restrictions" — th
 
 ## Formatting
 
-Don't worry about style manually — run `npx prettier --write .` after changes and let it handle formatting per `.editorconfig` and `.prettierrc.json`.
+Don't worry about style manually — run `npm run format` after changes and let it handle formatting per `.editorconfig` and `.prettierrc.json`.
 
 ---
 

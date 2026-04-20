@@ -1,0 +1,9 @@
+{
+  "name": "mihomo-ruleset",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  }
+}
