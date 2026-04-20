@@ -295,12 +295,6 @@
 +.okx.com
 +.okex.com
 
-# === Proton (ProtonMail / ProtonVPN) (РКН, 2020) ===
-+.proton.me
-+.protonmail.com
-+.protonvpn.com
-+.protonvpn.ch
-
 # === Tuta / Tutanota (РКН, 2024) ===
 +.tuta.com
 +.tuta.io

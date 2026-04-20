@@ -49,7 +49,6 @@ ipcidr-правило, а не только домены. Ревизия: 2026-0
 - **Cloudflare WARP / 1.1.1.1** — РКН, 2024
 - **OpenVPN (сайт и клиент)** — РКН, волна 2023–2025
 - **Tor Project** — РКН, декабрь 2021
-- **Proton (ProtonMail / ProtonVPN)** — РКН, январь 2020 (зашифрованная почта + open-source VPN)
 - **Tuta / Tutanota** — РКН, 2024 (open-source end-to-end зашифрованный email)
 - **Simplex Chat** — РКН, блокировка (open-source мессенджер без идентификаторов)
 - **Threema** — РКН, блокировка (швейцарский end-to-end мессенджер)
