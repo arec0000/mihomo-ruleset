@@ -42,8 +42,9 @@ Don't worry about style manually — run `npx prettier --write .` after changes 
 
 Detailed instructions are in `skills/`. Auto-triggered by context (for agents with skill support) or read manually.
 
-- **Sync** — [`skills/sync-agent-files/SKILL.md`](skills/sync-agent-files/SKILL.md) — **auto-trigger after ANY edit** to files in `agent/`, `.claude/skills/`,
-  or agent configs (`CLAUDE.md`, `.cursorrules`, `.windsurfrules`, `.clinerules`, `.roomodes`, `copilot-instructions.md`). Read the skill and run the sync
+- **Sync** — [`skills/sync-agent-files/SKILL.md`](skills/sync-agent-files/SKILL.md) — **auto-trigger after ANY edit** to files in `agent/`, agent-specific skill
+  copies (for example `.agents/skills/`, `.claude/skills/`, `.cursor/rules/`, `.windsurf/rules/`, `.gemini/`), or agent configs (`AGENTS.md`, `CLAUDE.md`,
+  `.cursorrules`, `.windsurfrules`, `CONVENTIONS.md`, `GEMINI.md`, `.clinerules`, `.roomodes`, `copilot-instructions.md`). Read the skill and run the sync
   procedure immediately after such edits — do not wait for explicit request.
 - **Project structure** — [`skills/project-structure/SKILL.md`](skills/project-structure/SKILL.md) — **read before editing any file in `src/` or `dist/`**.
   Describes file formats (`rules-domain.txt`, `rules-ipcidr.txt`, `services.md`, `excluded.md`), comment syntax, and how to build `dist/*.mrs`.

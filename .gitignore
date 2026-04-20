@@ -5,14 +5,21 @@
 *.swo
 *~
 
-# Agent-specific instruction files (source of truth: agent/AGENTS.md)
-CLAUDE.md
-.claude/
-.cursorrules
-.cursor/
-.windsurfrules
-.windsurf/
-CONVENTIONS.md
-.aider*
-.cline/
-.continue/
+# Agent-specific instruction files (source of truth: agent/INSTRUCTIONS.md)
+/AGENTS.md
+/CLAUDE.md
+/GEMINI.md
+/copilot-instructions.md
+/.roomodes
+/.clinerules
+/.agents/
+/.claude/
+/.gemini/
+/.cursorrules
+/.cursor/
+/.windsurfrules
+/.windsurf/
+/CONVENTIONS.md
+/.aider*
+/.cline/
+/.continue/
