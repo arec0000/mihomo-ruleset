@@ -174,15 +174,21 @@ ipcidr-правило, а не только домены. Ревизия: 2026-0
 
 - **Ansys** — санкции
 - **Autodesk** — санкции, блок активации и скачиваний
-- **Avid (Pro Tools, Media Composer)** — санкции
 - **Cadence Design Systems** — санкции
 - **Chaos / V-Ray** — санкции, отказ лицензий V-Ray / Corona / Phoenix для РФ
-- **Dolby** — санкции, отказ от РФ
 - **Onshape** — санкции
 - **PTC (Creo, Windchill, ThingWorx)** — санкции
 - **Siemens (TIA, NX, Solid Edge)** — санкции
 - **SketchUp** — санкции
 - **Vectorworks** — санкции
+
+## Аудио / музыкальное производство
+
+- **Ableton** — самоограничение, март 2022
+- **Avid (Pro Tools, Media Composer)** — санкции, март 2022
+- **Dolby** — санкции, отказ от РФ
+- **Focusrite Group (Focusrite, Novation, ADAM Audio, Martin Audio, Sequential)** — самоограничение, март 2022
+- **Universal Audio** — самоограничение, 10 марта 2022
 
 ## Кибербезопасность
 

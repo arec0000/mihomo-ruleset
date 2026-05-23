@@ -853,9 +853,28 @@ adobe.activate.com
 +.chaos.com
 +.chaosgroup.com
 
-# === Media production ===
+# === Ableton (самоограничение, 2022-03) ===
++.ableton.com
+
+# === Avid (санкции, 2022-03-04) ===
 +.avid.com
+
+# === Dolby (санкции / отказ от РФ) ===
 +.dolby.com
+
+# === Focusrite Group (самоограничение, 2022-03) ===
++.focusrite.com
++.focusriteplc.com
++.novationmusic.com
++.ampifymusic.com
++.adam-audio.com
++.martin-audio.com
++.optimal-audio.co.uk
++.sequential.com
++.linea-research.co.uk
+
+# === Universal Audio (самоограничение, 2022-03-10) ===
++.uaudio.com
 
 # === Semiconductor vendors ===
 +.ti.com
